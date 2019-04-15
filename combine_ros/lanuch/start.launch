@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+	<node name="combine_ros" pkg="combine_ros" type="combine_ros" output="screen">
+	  <!--subscribe-->
+		<remap from="/sound_direction" to="/sound_direction"/>
+		<remap from="/bounding_boxes" to="/darknet_ros/bounding_boxes"/>
+		<!--remap from="/pointcloud" to="/smarttof/pointcloud"/-->
+		<remap from="/image_dist" to="/kinect/depth/image_raw"/>
+                <remap from="/cmd_vel" to="/sim_p3at/cmd_vel"/>
+		<remap from="/odom" to="/sim_p3at/odom"/>
+		<!--remap from="/base_scan" to="/scan"/-->
+	 <!--publish-->
+                <remap from="/targetP" to="/ai_robot/findpath/targetP"/>
+	</node>
+	<!--rosparam command = "load" file = "$(find combine_ros)/param/paramsdepth.yaml"/-->
+	<!--<include file ="$(find respeaker_ros)/launch/respeaker.launch"/> -->
+	<!--<include file ="$(find zed_cpu_ros)/launch/zed_cpu_ros.launch"/> 
+	<include file ="$(find darknet_ros)/launch/yolo_v3.launch"/>
+	<include file ="$(find dmcam_ros)/launch/start.launch"/>-->
+</launch>

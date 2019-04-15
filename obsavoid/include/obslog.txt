@@ -1,0 +1,1994 @@
+all 3 safezone
+zone[0]:lp[0]=1.25, lp[1]=-19.8127, rp[0]=1.25, rp[1]=-73.9572, safedir:-72.1762, -21.5937
+zone[1]:lp[0]=1.7, lp[1]=-32.6586, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -33.9943
+zone[2]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=25.4966, safedir:26.3871, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=1.07498e-14, dyaw=6.16232e-13, err_dyaw_safe=-21.5937, near safezone dist=1.25, newdir=-21.5937, ddir_between_now_and_chosen_dir=-21.5937
+after vx=0.5, rz=-0.376881
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-32.6586, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -33.9943
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=25.4966, safedir:26.3871, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=5.83735e-11, dyaw=3.34625e-09, err_dyaw_safe=26.3871, near safezone dist=1.7, newdir=26.3871, ddir_between_now_and_chosen_dir=26.3871
+after vx=0.5, rz=0.460542
+cal obs time = 0.146735(cv) ms in loop 0
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-32.6586, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -33.9943
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=25.4966, safedir:26.3871, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=0.00180666, dyaw=0.103567, err_dyaw_safe=26.2835, near safezone dist=1.7, newdir=26.3871, ddir_between_now_and_chosen_dir=26.3871
+after vx=0.5, rz=0.460542
+cal obs time = 0.215283(cv) ms in loop 1
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-32.6586, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -33.9943
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=25.4966, safedir:26.3871, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=0.00180666, dyaw=0.103567, err_dyaw_safe=26.2835, near safezone dist=1.7, newdir=26.3871, ddir_between_now_and_chosen_dir=26.3871
+after vx=0.5, rz=0.460542
+cal obs time = 0.169742(cv) ms in loop 2
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-32.6586, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -33.9943
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=25.4966, safedir:26.3871, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.00278961, dyaw=-0.159914, err_dyaw_safe=26.547, near safezone dist=1.7, newdir=26.3871, ddir_between_now_and_chosen_dir=26.3871
+after vx=0.5, rz=0.460542
+cal obs time = 0.237122(cv) ms in loop 3
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-32.6586, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -33.9943
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=25.4966, safedir:26.3871, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.00278961, dyaw=-0.159914, err_dyaw_safe=26.547, near safezone dist=1.7, newdir=26.3871, ddir_between_now_and_chosen_dir=26.3871
+after vx=0.5, rz=0.460542
+cal obs time = 0.111003(cv) ms in loop 4
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-32.6586, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -33.9943
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=25.4966, safedir:26.3871, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.007639, dyaw=-0.437904, err_dyaw_safe=26.825, near safezone dist=1.7, newdir=26.3871, ddir_between_now_and_chosen_dir=26.3871
+after vx=0.5, rz=0.460542
+cal obs time = 0.216813(cv) ms in loop 5
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-34.6639, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -35.9997
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=23.4913, safedir:24.3818, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.0258104, dyaw=-1.47958, err_dyaw_safe=25.8613, near safezone dist=1.7, newdir=24.3818, ddir_between_now_and_chosen_dir=24.3818
+after vx=0.5, rz=0.425542
+cal obs time = 0.083672(cv) ms in loop 6
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-34.6639, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -35.9997
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=23.4913, safedir:24.3818, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.0258104, dyaw=-1.47958, err_dyaw_safe=25.8613, near safezone dist=1.7, newdir=24.3818, ddir_between_now_and_chosen_dir=24.3818
+after vx=0.5, rz=0.425542
+cal obs time = 0.074255(cv) ms in loop 7
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-34.6639, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -35.9997
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=21.4859, safedir:22.3764, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.0360906, dyaw=-2.06889, err_dyaw_safe=24.4453, near safezone dist=1.7, newdir=22.3764, ddir_between_now_and_chosen_dir=22.3764
+after vx=0.5, rz=0.390542
+cal obs time = 0.08419(cv) ms in loop 8
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-36.6693, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -38.005
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=21.4859, safedir:22.3764, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.0474423, dyaw=-2.71962, err_dyaw_safe=25.096, near safezone dist=1.7, newdir=22.3764, ddir_between_now_and_chosen_dir=22.3764
+after vx=0.5, rz=0.390542
+cal obs time = 0.068446(cv) ms in loop 9
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-36.6693, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -38.005
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=21.4859, safedir:22.3764, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.0600228, dyaw=-3.4408, err_dyaw_safe=25.8172, near safezone dist=1.7, newdir=22.3764, ddir_between_now_and_chosen_dir=22.3764
+after vx=0.5, rz=0.390542
+cal obs time = 0.17695(cv) ms in loop 10
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-38.6747, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -40.0104
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=19.4806, safedir:20.3711, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.0751509, dyaw=-4.30802, err_dyaw_safe=24.6791, near safezone dist=1.7, newdir=20.3711, ddir_between_now_and_chosen_dir=20.3711
+after vx=0.5, rz=0.355542
+cal obs time = 0.301803(cv) ms in loop 11
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-40.68, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -42.0157
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=17.4752, safedir:18.811, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.117327, dyaw=-6.72574, err_dyaw_safe=25.5367, near safezone dist=1.7, newdir=18.811, ddir_between_now_and_chosen_dir=18.811
+after vx=0.35, rz=0.328313
+cal obs time = 0.066846(cv) ms in loop 12
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-42.6854, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.688, -43.688
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=11.4592, safedir:12.7949, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.117327, dyaw=-6.72574, err_dyaw_safe=19.5206, near safezone dist=1.7, newdir=12.7949, ddir_between_now_and_chosen_dir=12.7949
+after vx=0.35, rz=0.223313
+cal obs time = 0.099372(cv) ms in loop 13
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-44.6907, rp[0]=2.2, rp[1]=-44.6907, safedir:-44.6907, -44.6907
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=13.4645, safedir:14.355, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.138983, dyaw=-7.96715, err_dyaw_safe=22.3221, near safezone dist=1.2, newdir=14.355, ddir_between_now_and_chosen_dir=14.355
+after vx=0.35, rz=0.250542
+cal obs time = 0.108362(cv) ms in loop 14
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-44.6907, rp[0]=2.2, rp[1]=-44.6907, safedir:-44.6907, -44.6907
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=13.4645, safedir:14.355, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.158953, dyaw=-9.11196, err_dyaw_safe=23.467, near safezone dist=1.2, newdir=14.355, ddir_between_now_and_chosen_dir=14.355
+after vx=0.35, rz=0.250542
+cal obs time = 0.172155(cv) ms in loop 15
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=13.4645, safedir:14.355, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.177822, dyaw=-10.1936, err_dyaw_safe=24.5486, near safezone dist=1.2, newdir=14.355, ddir_between_now_and_chosen_dir=14.355
+after vx=0.35, rz=0.250542
+cal obs time = 0.061499(cv) ms in loop 16
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=13.4645, safedir:14.355, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.190656, dyaw=-10.9293, err_dyaw_safe=25.2843, near safezone dist=1.2, newdir=14.355, ddir_between_now_and_chosen_dir=14.355
+after vx=0.35, rz=0.250542
+cal obs time = 0.758764(cv) ms in loop 17
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=13.4645, safedir:14.355, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.217204, dyaw=-12.4512, err_dyaw_safe=26.8062, near safezone dist=1.2, newdir=14.355, ddir_between_now_and_chosen_dir=14.355
+after vx=0.35, rz=0.250542
+cal obs time = 0.076671(cv) ms in loop 18
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=13.4645, safedir:14.355, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.23886, dyaw=-13.6926, err_dyaw_safe=28.0476, near safezone dist=1.2, newdir=14.355, ddir_between_now_and_chosen_dir=14.355
+after vx=0.35, rz=0.250542
+cal obs time = 0.071776(cv) ms in loop 19
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=11.4592, safedir:12.3496, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.267395, dyaw=-15.3284, err_dyaw_safe=27.678, near safezone dist=1.2, newdir=12.3496, ddir_between_now_and_chosen_dir=12.3496
+after vx=0.35, rz=0.215542
+cal obs time = 0.059818(cv) ms in loop 20
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=11.4592, safedir:12.3496, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.295658, dyaw=-16.9485, err_dyaw_safe=29.2982, near safezone dist=1.2, newdir=12.3496, ddir_between_now_and_chosen_dir=12.3496
+after vx=0.35, rz=0.215542
+cal obs time = 0.114135(cv) ms in loop 21
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=7.44845, safedir:8.33894, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.329501, dyaw=-18.8886, err_dyaw_safe=27.2275, near safezone dist=1.2, newdir=8.33894, ddir_between_now_and_chosen_dir=8.33894
+after vx=0.35, rz=0.145542
+cal obs time = 0.135564(cv) ms in loop 22
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=5.4431, safedir:6.33358, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.348217, dyaw=-19.9615, err_dyaw_safe=26.2951, near safezone dist=1.2, newdir=6.33358, ddir_between_now_and_chosen_dir=6.33358
+after vx=0.35, rz=0.110542
+cal obs time = 0.145866(cv) ms in loop 23
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=5.4431, safedir:6.33358, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.36271, dyaw=-20.7923, err_dyaw_safe=27.1259, near safezone dist=1.2, newdir=6.33358, ddir_between_now_and_chosen_dir=6.33358
+after vx=0.35, rz=0.110542
+cal obs time = 0.086604(cv) ms in loop 24
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=3.43775, safedir:4.32823, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.372917, dyaw=-21.3774, err_dyaw_safe=25.7056, near safezone dist=1.2, newdir=4.32823, ddir_between_now_and_chosen_dir=4.32823
+after vx=0.35, rz=0.0755419
+cal obs time = 0.213407(cv) ms in loop 25
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=3.43775, safedir:4.32823, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.386546, dyaw=-22.1587, err_dyaw_safe=26.4869, near safezone dist=1.2, newdir=4.32823, ddir_between_now_and_chosen_dir=4.32823
+after vx=0.35, rz=0.0755419
+cal obs time = 0.23021(cv) ms in loop 26
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=3.43775, safedir:4.32823, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.411836, dyaw=-23.6084, err_dyaw_safe=27.9367, near safezone dist=1.2, newdir=4.32823, ddir_between_now_and_chosen_dir=4.32823
+after vx=0.35, rz=0.0755419
+cal obs time = 0.095194(cv) ms in loop 27
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=-0.572958, safedir:0.317528, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.411836, dyaw=-23.6084, err_dyaw_safe=23.926, near safezone dist=1.2, newdir=0.317528, ddir_between_now_and_chosen_dir=0.317528
+after vx=0.5, rz=0.0055419
+cal obs time = 0.059265(cv) ms in loop 28
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=-2.57831, safedir:-1.68782, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.430702, dyaw=-24.6899, err_dyaw_safe=23.0021, near safezone dist=1.2, newdir=-1.68782, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.0294581
+cal obs time = 0.061131(cv) ms in loop 29
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=-4.58366, safedir:-3.69318, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.45888, dyaw=-26.3052, err_dyaw_safe=22.612, near safezone dist=1.2, newdir=-3.69318, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.0644581
+cal obs time = 0.109888(cv) ms in loop 30
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=-8.59437, safedir:-7.70388, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.487668, dyaw=-27.9555, err_dyaw_safe=20.2516, near safezone dist=1.2, newdir=-7.70388, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.134458
+cal obs time = 0.056743(cv) ms in loop 31
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=-20.6265, safedir:-19.736, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.556856, dyaw=-31.9217, err_dyaw_safe=12.1857, near safezone dist=1.2, newdir=-19.736, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.344458
+cal obs time = 0.229961(cv) ms in loop 32
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-14.6104, safedir:-13.7199, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.556856, dyaw=-31.9217, err_dyaw_safe=18.2018, near safezone dist=0.7, newdir=-13.7199, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.239458
+cal obs time = 0.06102(cv) ms in loop 33
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-12.6051, safedir:-11.7146, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.59635, dyaw=-34.1857, err_dyaw_safe=22.4711, near safezone dist=0.7, newdir=-11.7146, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.204458
+cal obs time = 0.069381(cv) ms in loop 34
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-12.6051, safedir:-11.7146, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.59635, dyaw=-34.1857, err_dyaw_safe=22.4711, near safezone dist=0.7, newdir=-11.7146, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.204458
+cal obs time = 0.083115(cv) ms in loop 35
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-14.6104, safedir:-13.7199, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.613143, dyaw=-35.1483, err_dyaw_safe=21.4284, near safezone dist=0.7, newdir=-13.7199, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.239458
+cal obs time = 0.053008(cv) ms in loop 36
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-16.6158, safedir:-15.7253, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.625236, dyaw=-35.8416, err_dyaw_safe=20.1163, near safezone dist=0.7, newdir=-15.7253, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.274458
+cal obs time = 0.067434(cv) ms in loop 37
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-18.6211, safedir:-17.7306, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.636882, dyaw=-36.5092, err_dyaw_safe=18.7785, near safezone dist=0.7, newdir=-17.7306, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.309458
+cal obs time = 0.177259(cv) ms in loop 38
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-20.6265, safedir:-19.736, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.650744, dyaw=-37.3038, err_dyaw_safe=17.5678, near safezone dist=0.7, newdir=-19.736, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.344458
+cal obs time = 0.055434(cv) ms in loop 39
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-22.6318, safedir:-21.7413, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.659271, dyaw=-37.7926, err_dyaw_safe=16.0512, near safezone dist=0.7, newdir=-21.7413, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.379458
+cal obs time = 0.117238(cv) ms in loop 40
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-26.6425, safedir:-25.7521, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.677472, dyaw=-38.836, err_dyaw_safe=13.0839, near safezone dist=0.7, newdir=-25.7521, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.449458
+cal obs time = 0.05489(cv) ms in loop 41
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-28.6479, safedir:-27.7574, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.704508, dyaw=-40.3858, err_dyaw_safe=12.6284, near safezone dist=0.7, newdir=-27.7574, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.484458
+cal obs time = 0.103892(cv) ms in loop 42
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=-34.6639, safedir:-33.7735, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.704508, dyaw=-40.3858, err_dyaw_safe=6.61234, near safezone dist=1.2, newdir=-33.7735, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.589458
+cal obs time = 0.06079(cv) ms in loop 43
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.717036, dyaw=-41.104, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.7174
+cal obs time = 0.214999(cv) ms in loop 44
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.731801, dyaw=-41.9504, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.732172
+cal obs time = 0.220895(cv) ms in loop 45
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.741126, dyaw=-42.485, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.741502
+cal obs time = 0.085665(cv) ms in loop 46
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.756088, dyaw=-43.3426, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.756472
+cal obs time = 0.065426(cv) ms in loop 47
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.767637, dyaw=-44.0047, err_dyaw_safe=0.204458, near safezone dist=2.2, newdir=-43.8002, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.764458
+cal obs time = 0.150073(cv) ms in loop 48
+
+cal obs time = 0.020046(cv) ms in loop 49
+
+cal obs time = 0.066393(cv) ms in loop 50
+
+cal obs time = 0.053129(cv) ms in loop 51
+
+cal obs time = 0.081274(cv) ms in loop 52
+
+cal obs time = 0.029478(cv) ms in loop 53
+
+cal obs time = 0.016095(cv) ms in loop 54
+
+cal obs time = 0.020924(cv) ms in loop 55
+
+cal obs time = 0.019911(cv) ms in loop 56
+
+cal obs time = 0.018815(cv) ms in loop 57
+
+cal obs time = 0.020771(cv) ms in loop 58
+
+cal obs time = 0.053114(cv) ms in loop 59
+
+cal obs time = 0.04785(cv) ms in loop 60
+
+cal obs time = 0.019903(cv) ms in loop 61
+
+cal obs time = 0.018506(cv) ms in loop 62
+
+cal obs time = 0.019366(cv) ms in loop 63
+
+cal obs time = 0.020614(cv) ms in loop 64
+
+cal obs time = 0.025177(cv) ms in loop 65
+
+cal obs time = 0.148743(cv) ms in loop 66
+
+cal obs time = 0.058019(cv) ms in loop 67
+
+cal obs time = 0.07157(cv) ms in loop 68
+
+cal obs time = 0.23334(cv) ms in loop 69
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.438083, rz=-0.76223, dyaw=-43.6947, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.438083, rz=-0.762617
+cal obs time = 0.060835(cv) ms in loop 70
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.422144, rz=-0.726825, dyaw=-41.6651, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.422144, rz=-0.727194
+cal obs time = 0.062079(cv) ms in loop 71
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.422144, rz=-0.726825, dyaw=-41.6651, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.422144, rz=-0.727194
+cal obs time = 0.168148(cv) ms in loop 72
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.414272, rz=-0.709345, dyaw=-40.6631, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.414272, rz=-0.709705
+cal obs time = 0.068061(cv) ms in loop 73
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.401888, rz=-0.682203, dyaw=-39.1072, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.401888, rz=-0.682549
+cal obs time = 0.06527(cv) ms in loop 74
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.389657, rz=-0.655626, dyaw=-37.5837, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.389657, rz=-0.655959
+cal obs time = 0.113868(cv) ms in loop 75
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.376833, rz=-0.627855, dyaw=-35.9917, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.376833, rz=-0.628173
+cal obs time = 0.133798(cv) ms in loop 76
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.363367, rz=-0.598725, dyaw=-34.3218, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.363367, rz=-0.599028
+cal obs time = 0.401355(cv) ms in loop 77
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.333109, rz=-0.532513, dyaw=-30.5262, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.333109, rz=-0.532783
+cal obs time = 0.061926(cv) ms in loop 78
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.333109, rz=-0.532513, dyaw=-30.5262, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.333109, rz=-0.532783
+cal obs time = 0.062191(cv) ms in loop 79
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.318638, rz=-0.497998, dyaw=-28.5476, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.318638, rz=-0.49825
+cal obs time = 0.066508(cv) ms in loop 80
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.300053, rz=-0.449431, dyaw=-25.7636, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.300053, rz=-0.449659
+cal obs time = 0.121119(cv) ms in loop 81
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.292533, rz=-0.428061, dyaw=-24.5385, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.292533, rz=-0.428278
+cal obs time = 0.323767(cv) ms in loop 82
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.28602, rz=-0.408193, dyaw=-23.3996, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.28602, rz=-0.408401
+cal obs time = 0.053111(cv) ms in loop 83
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.28602, rz=-0.408193, dyaw=-23.3996, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.28602, rz=-0.408401
+cal obs time = 0.065076(cv) ms in loop 84
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.277472, rz=-0.377297, dyaw=-21.6285, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.277472, rz=-0.377489
+cal obs time = 0.334142(cv) ms in loop 85
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.269876, rz=-0.347428, dyaw=-19.9162, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.269876, rz=-0.347604
+cal obs time = 0.190714(cv) ms in loop 86
+
+all 2 safezone
+zone[0]:lp[0]=2.2, lp[1]=25.4966, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 24.428
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=29.5073, safedir:30.3978, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.262512, rz=-0.317195, dyaw=-18.1832, err_dyaw_safe=0, near safezone dist=2.2, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.262512, rz=-0.317356
+cal obs time = 0.111208(cv) ms in loop 87
+
+all 2 safezone
+zone[0]:lp[0]=2.2, lp[1]=25.4966, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 24.428
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=31.5127, safedir:32.4032, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.253261, rz=-0.277698, dyaw=-15.919, err_dyaw_safe=0, near safezone dist=2.2, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.253261, rz=-0.277839
+cal obs time = 0.307294(cv) ms in loop 88
+
+all 2 safezone
+zone[0]:lp[0]=2.2, lp[1]=25.4966, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 24.428
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=39.5341, safedir:40.4246, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.232183, rz=-0.181452, dyaw=-10.4017, err_dyaw_safe=0, near safezone dist=2.2, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.232183, rz=-0.181544
+cal obs time = 0.429594(cv) ms in loop 89
+
+all 2 safezone
+zone[0]:lp[0]=2.2, lp[1]=29.5073, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 28.4387
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=43.5448, safedir:43.5448, 43.5448
+choose 0 safezone
+modify:
+origin vx=0.232183, rz=-0.181452, dyaw=-10.4017, err_dyaw_safe=0, near safezone dist=2.2, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.232183, rz=-0.181544
+cal obs time = 0.486658(cv) ms in loop 90
+
+all 1 safezone
+zone[0]:lp[0]=2.2, lp[1]=31.5127, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 30.4441
+choose 0 safezone
+modify:
+origin vx=0.228964, rz=-0.16578, dyaw=-9.50329, err_dyaw_safe=0, near safezone dist=2.2, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.228964, rz=-0.165864
+cal obs time = 0.183813(cv) ms in loop 91
+
+all 1 safezone
+zone[0]:lp[0]=2.2, lp[1]=33.518, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 32.4494
+choose 0 safezone
+modify:
+origin vx=0.224629, rz=-0.144033, dyaw=-8.25666, err_dyaw_safe=0, near safezone dist=2.2, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.224629, rz=-0.144106
+cal obs time = 0.080874(cv) ms in loop 92
+
+all 1 safezone
+zone[0]:lp[0]=2.2, lp[1]=37.5287, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 36.4601
+choose 0 safezone
+modify:
+origin vx=0.212621, rz=-0.0815147, dyaw=-4.67282, err_dyaw_safe=0, near safezone dist=2.2, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.212621, rz=-0.0815561
+cal obs time = 0.059921(cv) ms in loop 93
+
+all 1 safezone
+zone[0]:lp[0]=2.2, lp[1]=41.5394, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 40.4709
+choose 0 safezone
+modify:
+origin vx=0.202657, rz=-0.0270107, dyaw=-1.54838, err_dyaw_safe=0, near safezone dist=2.2, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.202657, rz=-0.0270244
+cal obs time = 0.324913(cv) ms in loop 94
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.192577, rz=0.0323354, dyaw=1.85362, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.192577, rz=0.0323518
+cal obs time = 0.060957(cv) ms in loop 95
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-15.802, rp[0]=2.25, rp[1]=-71.9518, safedir:-70.8832, -16.8706
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.182124, rz=0.09996, dyaw=5.73019, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.182124, rz=0.100011
+cal obs time = 0.072733(cv) ms in loop 96
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-11.7913, rp[0]=2.25, rp[1]=-67.9411, safedir:-66.8725, -12.8598
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.171367, rz=0.17739, dyaw=10.1688, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.171367, rz=0.17748
+cal obs time = 0.066227(cv) ms in loop 97
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-7.78056, rp[0]=2.25, rp[1]=-63.9304, safedir:-62.8618, -8.84914
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.164155, rz=0.235185, dyaw=13.482, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.164155, rz=0.235305
+cal obs time = 0.067088(cv) ms in loop 98
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-3.76985, rp[0]=2.25, rp[1]=-59.9197, safedir:-58.8511, -4.83844
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.158693, rz=0.283008, dyaw=16.2234, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.158693, rz=0.283151
+cal obs time = 0.062758(cv) ms in loop 99
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-57.9144, safedir:-56.8458, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.154775, rz=0.320062, dyaw=18.3475, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.154775, rz=0.320225
+cal obs time = 0.200309(cv) ms in loop 100
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-55.909, safedir:-54.8404, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.152227, rz=0.345451, dyaw=19.8029, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.152227, rz=0.345626
+cal obs time = 0.207448(cv) ms in loop 101
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-53.9037, safedir:-52.8351, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.148064, rz=0.388615, dyaw=22.2773, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.148064, rz=0.388812
+cal obs time = 0.065543(cv) ms in loop 102
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-51.8983, safedir:-50.8297, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.1444, rz=0.428414, dyaw=24.5587, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.1444, rz=0.428631
+cal obs time = 0.062804(cv) ms in loop 103
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-47.8876, safedir:-46.819, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.141849, rz=0.457219, dyaw=26.21, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.141849, rz=0.457451
+cal obs time = 0.061676(cv) ms in loop 104
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-47.8876, safedir:-46.819, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.139388, rz=0.485358, dyaw=27.8231, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.139388, rz=0.485605
+cal obs time = 0.074368(cv) ms in loop 105
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-45.8823, safedir:-44.8137, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.136151, rz=0.523689, dyaw=30.0204, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.136151, rz=0.523954
+cal obs time = 0.131204(cv) ms in loop 106
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-43.8769, safedir:-42.8083, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.132514, rz=0.568946, dyaw=32.6147, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.132514, rz=0.569234
+cal obs time = 0.064408(cv) ms in loop 107
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-39.8662, safedir:-38.7976, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.12908, rz=0.614534, dyaw=35.2281, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.12908, rz=0.614846
+cal obs time = 0.168638(cv) ms in loop 108
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-37.8608, safedir:-36.7923, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.125862, rz=0.660385, dyaw=37.8565, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.125862, rz=0.66072
+cal obs time = 0.222017(cv) ms in loop 109
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-35.8555, safedir:-34.7869, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.121379, rz=0.729515, dyaw=41.8193, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.121379, rz=0.729885
+cal obs time = 0.086832(cv) ms in loop 110
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-31.8448, safedir:-30.7762, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.121379, rz=0.729515, dyaw=41.8193, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.121379, rz=0.729885
+cal obs time = 0.085202(cv) ms in loop 111
+
+cal obs time = 0.022514(cv) ms in loop 112
+
+cal obs time = 0.101848(cv) ms in loop 113
+
+cal obs time = 0.02368(cv) ms in loop 114
+
+cal obs time = 0.023838(cv) ms in loop 115
+
+cal obs time = 0.019456(cv) ms in loop 116
+
+cal obs time = 0.027715(cv) ms in loop 117
+
+cal obs time = 0.07729(cv) ms in loop 118
+
+cal obs time = 0.077086(cv) ms in loop 119
+
+cal obs time = 0.125934(cv) ms in loop 120
+
+cal obs time = 0.096352(cv) ms in loop 121
+
+cal obs time = 0.091569(cv) ms in loop 122
+
+cal obs time = 0.152754(cv) ms in loop 123
+
+cal obs time = 0.070839(cv) ms in loop 124
+
+cal obs time = 0.030918(cv) ms in loop 125
+
+cal obs time = 0.054705(cv) ms in loop 126
+
+cal obs time = 0.090737(cv) ms in loop 127
+
+cal obs time = 0.084723(cv) ms in loop 128
+
+cal obs time = 0.114549(cv) ms in loop 129
+
+cal obs time = 0.091978(cv) ms in loop 130
+
+cal obs time = 0.031693(cv) ms in loop 131
+
+cal obs time = 0.229565(cv) ms in loop 132
+
+cal obs time = 0.430379(cv) ms in loop 133
+
+cal obs time = 0.117356(cv) ms in loop 134
+
+cal obs time = 0.081467(cv) ms in loop 135
+
+cal obs time = 0.065836(cv) ms in loop 136
+
+cal obs time = 0.065954(cv) ms in loop 137
+
+cal obs time = 0.041121(cv) ms in loop 138
+
+cal obs time = 0.022859(cv) ms in loop 139
+
+cal obs time = 0.033386(cv) ms in loop 140
+
+cal obs time = 0.025427(cv) ms in loop 141
+
+cal obs time = 0.068678(cv) ms in loop 142
+
+cal obs time = 0.12423(cv) ms in loop 143
+
+cal obs time = 0.0196(cv) ms in loop 144
+
+cal obs time = 0.074844(cv) ms in loop 145
+
+cal obs time = 0.065028(cv) ms in loop 146
+
+cal obs time = 0.06897(cv) ms in loop 147
+
+cal obs time = 0.019632(cv) ms in loop 148
+
+cal obs time = 0.087832(cv) ms in loop 149
+
+cal obs time = 0.260238(cv) ms in loop 150
+
+cal obs time = 0.107925(cv) ms in loop 151
+
+cal obs time = 0.045064(cv) ms in loop 152
+
+cal obs time = 0.049944(cv) ms in loop 153
+
+cal obs time = 0.039191(cv) ms in loop 154
+
+cal obs time = 0.083638(cv) ms in loop 155
+
+cal obs time = 0.064827(cv) ms in loop 156
+
+cal obs time = 0.122523(cv) ms in loop 157
+
+cal obs time = 0.148228(cv) ms in loop 158
+
+cal obs time = 0.032395(cv) ms in loop 159
+
+cal obs time = 0.06751(cv) ms in loop 160
+
+cal obs time = 0.057365(cv) ms in loop 161
+
+cal obs time = 0.058803(cv) ms in loop 162
+
+cal obs time = 0.024543(cv) ms in loop 163
+
+cal obs time = 1.05753(cv) ms in loop 164
+
+cal obs time = 0.04628(cv) ms in loop 165
+
+cal obs time = 0.051099(cv) ms in loop 166
+
+cal obs time = 0.257732(cv) ms in loop 167
+
+cal obs time = 0.119056(cv) ms in loop 168
+
+cal obs time = 0.052118(cv) ms in loop 169
+
+cal obs time = 0.058415(cv) ms in loop 170
+
+cal obs time = 0.078464(cv) ms in loop 171
+
+cal obs time = 0.020641(cv) ms in loop 172
+
+cal obs time = 0.083552(cv) ms in loop 173
+
+cal obs time = 0.023265(cv) ms in loop 174
+
+cal obs time = 0.043692(cv) ms in loop 175
+
+cal obs time = 0.068401(cv) ms in loop 176
+
+cal obs time = 0.143257(cv) ms in loop 177
+
+cal obs time = 0.088835(cv) ms in loop 178
+
+cal obs time = 0.024069(cv) ms in loop 179
+
+cal obs time = 0.156964(cv) ms in loop 180
+
+cal obs time = 0.022281(cv) ms in loop 181
+
+cal obs time = 0.060631(cv) ms in loop 182
+
+cal obs time = 0.02125(cv) ms in loop 183
+
+cal obs time = 0.099463(cv) ms in loop 184
+
+cal obs time = 0.088827(cv) ms in loop 185
+
+cal obs time = 0.250251(cv) ms in loop 186
+
+cal obs time = 0.124509(cv) ms in loop 187
+
+cal obs time = 0.020668(cv) ms in loop 188
+
+cal obs time = 0.109329(cv) ms in loop 189
+
+cal obs time = 0.058585(cv) ms in loop 190
+
+cal obs time = 0.021729(cv) ms in loop 191
+
+cal obs time = 1.13599(cv) ms in loop 192
+
+cal obs time = 0.166857(cv) ms in loop 193
+
+cal obs time = 0.184769(cv) ms in loop 194
+
+cal obs time = 0.022114(cv) ms in loop 195
+
+cal obs time = 0.052116(cv) ms in loop 196
+
+cal obs time = 0.030252(cv) ms in loop 197
+
+cal obs time = 0.089136(cv) ms in loop 198
+
+cal obs time = 0.153737(cv) ms in loop 199
+
+cal obs time = 0.074245(cv) ms in loop 200
+
+cal obs time = 0.08825(cv) ms in loop 201
+
+cal obs time = 0.073018(cv) ms in loop 202
+
+cal obs time = 0.030775(cv) ms in loop 203
+
+cal obs time = 0.044904(cv) ms in loop 204
+
+cal obs time = 0.057353(cv) ms in loop 205
+
+cal obs time = 0.051746(cv) ms in loop 206
+
+cal obs time = 0.019073(cv) ms in loop 207
+
+cal obs time = 0.122473(cv) ms in loop 208
+
+cal obs time = 0.15975(cv) ms in loop 209
+
+cal obs time = 0.293737(cv) ms in loop 210
+
+cal obs time = 0.191733(cv) ms in loop 211
+
+cal obs time = 0.44581(cv) ms in loop 212
+
+cal obs time = 0.035278(cv) ms in loop 213
+
+cal obs time = 0.112164(cv) ms in loop 214
+
+cal obs time = 0.073781(cv) ms in loop 215
+
+cal obs time = 0.084692(cv) ms in loop 216
+
+cal obs time = 0.023051(cv) ms in loop 217
+
+cal obs time = 0.068589(cv) ms in loop 218
+
+cal obs time = 0.051939(cv) ms in loop 219
+
+cal obs time = 0.04106(cv) ms in loop 220
+
+cal obs time = 0.124153(cv) ms in loop 221
+
+cal obs time = 0.20832(cv) ms in loop 222
+
+cal obs time = 0.023548(cv) ms in loop 223
+
+cal obs time = 0.02743(cv) ms in loop 224
+
+cal obs time = 0.018139(cv) ms in loop 225
+
+cal obs time = 0.0263(cv) ms in loop 226
+
+cal obs time = 0.060682(cv) ms in loop 227
+
+cal obs time = 0.141194(cv) ms in loop 228
+
+cal obs time = 0.027713(cv) ms in loop 229
+
+cal obs time = 0.039713(cv) ms in loop 230
+
+cal obs time = 0.079067(cv) ms in loop 231
+
+cal obs time = 0.041477(cv) ms in loop 232
+
+cal obs time = 0.019383(cv) ms in loop 233
+
+cal obs time = 0.022038(cv) ms in loop 234
+
+cal obs time = 0.088238(cv) ms in loop 235
+
+cal obs time = 0.021295(cv) ms in loop 236
+
+cal obs time = 0.021885(cv) ms in loop 237
+
+cal obs time = 0.069548(cv) ms in loop 238
+
+cal obs time = 0.029261(cv) ms in loop 239
+
+cal obs time = 0.087317(cv) ms in loop 240
+
+cal obs time = 0.029759(cv) ms in loop 241
+
+cal obs time = 0.090123(cv) ms in loop 242
+
+cal obs time = 0.023018(cv) ms in loop 243
+
+cal obs time = 0.106887(cv) ms in loop 244
+
+cal obs time = 0.612017(cv) ms in loop 245
+
+cal obs time = 0.150092(cv) ms in loop 246
+
+cal obs time = 0.172579(cv) ms in loop 247
+
+cal obs time = 0.070504(cv) ms in loop 248
+
+cal obs time = 0.052017(cv) ms in loop 249
+
+cal obs time = 0.072741(cv) ms in loop 250
+
+cal obs time = 0.019704(cv) ms in loop 251
+
+cal obs time = 0.021868(cv) ms in loop 252
+
+cal obs time = 0.053312(cv) ms in loop 253
+
+cal obs time = 0.023346(cv) ms in loop 254
+
+cal obs time = 0.073168(cv) ms in loop 255
+
+cal obs time = 0.017856(cv) ms in loop 256
+
+cal obs time = 0.030038(cv) ms in loop 257
+
+all 3 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=1.75, rp[1]=-21.818, safedir:-20.7494, -2.83309
+zone[1]:lp[0]=1.7, lp[1]=-32.6586, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -33.9943
+zone[2]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=25.4966, safedir:26.3871, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-1.31599e-15, dyaw=-7.54388e-14, err_dyaw_safe=-2.83309, near safezone dist=2.25, newdir=-2.83309, ddir_between_now_and_chosen_dir=-2.83309
+after vx=0.5, rz=-0.0494467
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-32.6586, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -33.9943
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=25.4966, safedir:26.3871, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=9.95757e-11, dyaw=5.70816e-09, err_dyaw_safe=26.3871, near safezone dist=1.7, newdir=26.3871, ddir_between_now_and_chosen_dir=26.3871
+after vx=0.5, rz=0.460542
+cal obs time = 0.081102(cv) ms in loop 0
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-32.6586, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -33.9943
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=25.4966, safedir:26.3871, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=0.00152377, dyaw=0.0873496, err_dyaw_safe=26.2998, near safezone dist=1.7, newdir=26.3871, ddir_between_now_and_chosen_dir=26.3871
+after vx=0.5, rz=0.460542
+cal obs time = 0.074182(cv) ms in loop 1
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-32.6586, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -33.9943
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=25.4966, safedir:26.3871, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=0.00152377, dyaw=0.0873496, err_dyaw_safe=26.2998, near safezone dist=1.7, newdir=26.3871, ddir_between_now_and_chosen_dir=26.3871
+after vx=0.5, rz=0.460542
+cal obs time = 0.070618(cv) ms in loop 2
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-32.6586, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -33.9943
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=25.4966, safedir:26.3871, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=0.000654144, dyaw=0.0374987, err_dyaw_safe=26.3496, near safezone dist=1.7, newdir=26.3871, ddir_between_now_and_chosen_dir=26.3871
+after vx=0.5, rz=0.460542
+cal obs time = 0.235283(cv) ms in loop 3
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-32.6586, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -33.9943
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=25.4966, safedir:26.3871, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.0026945, dyaw=-0.154462, err_dyaw_safe=26.5416, near safezone dist=1.7, newdir=26.3871, ddir_between_now_and_chosen_dir=26.3871
+after vx=0.5, rz=0.460542
+cal obs time = 0.120783(cv) ms in loop 4
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-32.6586, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -33.9943
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=25.4966, safedir:26.3871, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.00788185, dyaw=-0.451826, err_dyaw_safe=26.8389, near safezone dist=1.7, newdir=26.3871, ddir_between_now_and_chosen_dir=26.3871
+after vx=0.5, rz=0.460542
+cal obs time = 0.089989(cv) ms in loop 5
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-34.6639, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -35.9997
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=23.4913, safedir:24.3818, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.0153463, dyaw=-0.879725, err_dyaw_safe=25.2615, near safezone dist=1.7, newdir=24.3818, ddir_between_now_and_chosen_dir=24.3818
+after vx=0.5, rz=0.425542
+cal obs time = 0.163661(cv) ms in loop 6
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-34.6639, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -35.9997
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=23.4913, safedir:24.3818, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.0234814, dyaw=-1.34607, err_dyaw_safe=25.7278, near safezone dist=1.7, newdir=24.3818, ddir_between_now_and_chosen_dir=24.3818
+after vx=0.5, rz=0.425542
+cal obs time = 0.067987(cv) ms in loop 7
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-34.6639, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -35.9997
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=23.4913, safedir:24.3818, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.0311022, dyaw=-1.78293, err_dyaw_safe=26.1647, near safezone dist=1.7, newdir=24.3818, ddir_between_now_and_chosen_dir=24.3818
+after vx=0.5, rz=0.425542
+cal obs time = 0.20099(cv) ms in loop 8
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-36.6693, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -38.005
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=21.4859, safedir:22.3764, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.04195, dyaw=-2.40478, err_dyaw_safe=24.7812, near safezone dist=1.7, newdir=22.3764, ddir_between_now_and_chosen_dir=22.3764
+after vx=0.5, rz=0.390542
+cal obs time = 0.307958(cv) ms in loop 9
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-36.6693, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -38.005
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=21.4859, safedir:22.3764, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.0778916, dyaw=-4.46512, err_dyaw_safe=26.8415, near safezone dist=1.7, newdir=22.3764, ddir_between_now_and_chosen_dir=22.3764
+after vx=0.5, rz=0.390542
+cal obs time = 0.071431(cv) ms in loop 10
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-38.6747, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -40.0104
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=19.4806, safedir:20.3711, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.0778916, dyaw=-4.46512, err_dyaw_safe=24.8362, near safezone dist=1.7, newdir=20.3711, ddir_between_now_and_chosen_dir=20.3711
+after vx=0.5, rz=0.355542
+cal obs time = 0.084079(cv) ms in loop 11
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-40.68, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, -42.0157
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.7, rp[1]=15.4699, safedir:16.8056, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.0989058, dyaw=-5.66976, err_dyaw_safe=22.4754, near safezone dist=1.7, newdir=16.8056, ddir_between_now_and_chosen_dir=16.8056
+after vx=0.35, rz=0.293313
+cal obs time = 0.079806(cv) ms in loop 12
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-42.6854, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.688, -43.688
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=9.4538, safedir:10.3443, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.115996, dyaw=-6.64946, err_dyaw_safe=16.9938, near safezone dist=1.2, newdir=10.3443, ddir_between_now_and_chosen_dir=10.3443
+after vx=0.35, rz=0.180542
+cal obs time = 0.081507(cv) ms in loop 13
+
+all 2 safezone
+zone[0]:lp[0]=1.7, lp[1]=-42.6854, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.688, -43.688
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=11.4592, safedir:12.3496, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.5, rz=-0.141774, dyaw=-8.12717, err_dyaw_safe=20.4768, near safezone dist=1.2, newdir=12.3496, ddir_between_now_and_chosen_dir=12.3496
+after vx=0.35, rz=0.215542
+cal obs time = 0.250351(cv) ms in loop 14
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=13.4645, safedir:14.355, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.174948, dyaw=-10.0289, err_dyaw_safe=24.3839, near safezone dist=1.2, newdir=14.355, ddir_between_now_and_chosen_dir=14.355
+after vx=0.35, rz=0.250542
+cal obs time = 0.175053(cv) ms in loop 15
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=13.4645, safedir:14.355, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.197292, dyaw=-11.3098, err_dyaw_safe=25.6647, near safezone dist=1.2, newdir=14.355, ddir_between_now_and_chosen_dir=14.355
+after vx=0.35, rz=0.250542
+cal obs time = 0.080053(cv) ms in loop 16
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=13.4645, safedir:14.355, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.260176, dyaw=-14.9145, err_dyaw_safe=29.2695, near safezone dist=1.2, newdir=14.355, ddir_between_now_and_chosen_dir=14.355
+after vx=0.35, rz=0.250542
+cal obs time = 0.142483(cv) ms in loop 17
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=11.4592, safedir:12.3496, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.260176, dyaw=-14.9145, err_dyaw_safe=27.2642, near safezone dist=1.2, newdir=12.3496, ddir_between_now_and_chosen_dir=12.3496
+after vx=0.35, rz=0.215542
+cal obs time = 0.07011(cv) ms in loop 18
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=11.4592, safedir:12.3496, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.307719, dyaw=-17.6399, err_dyaw_safe=29.9896, near safezone dist=1.2, newdir=12.3496, ddir_between_now_and_chosen_dir=12.3496
+after vx=0.35, rz=0.215542
+cal obs time = 0.076722(cv) ms in loop 19
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=7.44845, safedir:8.33894, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.365847, dyaw=-20.9721, err_dyaw_safe=29.311, near safezone dist=1.2, newdir=8.33894, ddir_between_now_and_chosen_dir=8.33894
+after vx=0.35, rz=0.145542
+cal obs time = 0.529098(cv) ms in loop 20
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=5.4431, safedir:6.33358, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.365847, dyaw=-20.9721, err_dyaw_safe=27.3057, near safezone dist=1.2, newdir=6.33358, ddir_between_now_and_chosen_dir=6.33358
+after vx=0.35, rz=0.110542
+cal obs time = 0.143637(cv) ms in loop 21
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=5.4431, safedir:6.33358, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.383818, dyaw=-22.0023, err_dyaw_safe=28.3359, near safezone dist=1.2, newdir=6.33358, ddir_between_now_and_chosen_dir=6.33358
+after vx=0.35, rz=0.110542
+cal obs time = 0.200644(cv) ms in loop 22
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=3.43775, safedir:4.32823, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.408885, dyaw=-23.4392, err_dyaw_safe=27.7675, near safezone dist=1.2, newdir=4.32823, ddir_between_now_and_chosen_dir=4.32823
+after vx=0.35, rz=0.0755419
+cal obs time = 0.13615(cv) ms in loop 23
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=1.43239, safedir:2.32288, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.423865, dyaw=-24.298, err_dyaw_safe=26.6209, near safezone dist=1.2, newdir=2.32288, ddir_between_now_and_chosen_dir=2.32288
+after vx=0.35, rz=0.0405419
+cal obs time = 0.182004(cv) ms in loop 24
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=-2.57831, safedir:-1.68782, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.469588, dyaw=-26.9191, err_dyaw_safe=25.2312, near safezone dist=1.2, newdir=-1.68782, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.0294581
+cal obs time = 0.139835(cv) ms in loop 25
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=-6.58901, safedir:-5.69853, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.501795, dyaw=-28.7653, err_dyaw_safe=23.0668, near safezone dist=1.2, newdir=-5.69853, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.0994581
+cal obs time = 0.105245(cv) ms in loop 26
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=-12.6051, safedir:-11.7146, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.546036, dyaw=-31.3014, err_dyaw_safe=19.5868, near safezone dist=1.2, newdir=-11.7146, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.204458
+cal obs time = 0.166435(cv) ms in loop 27
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=1.2, rp[1]=-22.6318, safedir:-21.7413, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.581073, dyaw=-33.3099, err_dyaw_safe=11.5685, near safezone dist=1.2, newdir=-21.7413, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.379458
+cal obs time = 0.067979(cv) ms in loop 28
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-16.6158, safedir:-15.7253, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.619263, dyaw=-35.4991, err_dyaw_safe=19.7738, near safezone dist=0.7, newdir=-15.7253, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.274458
+cal obs time = 0.084573(cv) ms in loop 29
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-16.6158, safedir:-15.7253, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.658605, dyaw=-37.7544, err_dyaw_safe=22.0291, near safezone dist=0.7, newdir=-15.7253, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.274458
+cal obs time = 0.097097(cv) ms in loop 30
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-16.6158, safedir:-15.7253, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.658605, dyaw=-37.7544, err_dyaw_safe=22.0291, near safezone dist=0.7, newdir=-15.7253, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.274458
+cal obs time = 0.067935(cv) ms in loop 31
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-18.6211, safedir:-17.7306, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.673664, dyaw=-38.6177, err_dyaw_safe=20.887, near safezone dist=0.7, newdir=-17.7306, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.309458
+cal obs time = 0.20999(cv) ms in loop 32
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-18.6211, safedir:-17.7306, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.695014, dyaw=-39.8416, err_dyaw_safe=22.1109, near safezone dist=0.7, newdir=-17.7306, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.309458
+cal obs time = 0.07649(cv) ms in loop 33
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-18.6211, safedir:-17.7306, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.704714, dyaw=-40.3976, err_dyaw_safe=22.667, near safezone dist=0.7, newdir=-17.7306, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.309458
+cal obs time = 0.065761(cv) ms in loop 34
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-22.6318, safedir:-21.7413, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.715883, dyaw=-41.0379, err_dyaw_safe=19.2965, near safezone dist=0.7, newdir=-21.7413, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.379458
+cal obs time = 0.144947(cv) ms in loop 35
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-24.6372, safedir:-23.7467, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.5, rz=-0.75483, dyaw=-43.2705, err_dyaw_safe=19.5238, near safezone dist=0.7, newdir=-23.7467, ddir_between_now_and_chosen_dir=0
+after vx=0.5, rz=-0.414458
+cal obs time = 0.090865(cv) ms in loop 36
+
+cal obs time = 0.020788(cv) ms in loop 37
+
+cal obs time = 0.025417(cv) ms in loop 38
+
+cal obs time = 0.02023(cv) ms in loop 39
+
+cal obs time = 0.064112(cv) ms in loop 40
+
+cal obs time = 0.02262(cv) ms in loop 41
+
+cal obs time = 0.027534(cv) ms in loop 42
+
+cal obs time = 0.023088(cv) ms in loop 43
+
+cal obs time = 0.622656(cv) ms in loop 44
+
+cal obs time = 0.018937(cv) ms in loop 45
+
+cal obs time = 0.021482(cv) ms in loop 46
+
+cal obs time = 0.024492(cv) ms in loop 47
+
+cal obs time = 0.130982(cv) ms in loop 48
+
+cal obs time = 0.117827(cv) ms in loop 49
+
+cal obs time = 0.025789(cv) ms in loop 50
+
+cal obs time = 0.119207(cv) ms in loop 51
+
+cal obs time = 0.036718(cv) ms in loop 52
+
+cal obs time = 0.08837(cv) ms in loop 53
+
+cal obs time = 0.100039(cv) ms in loop 54
+
+cal obs time = 0.022186(cv) ms in loop 55
+
+cal obs time = 0.020709(cv) ms in loop 56
+
+cal obs time = 0.066861(cv) ms in loop 57
+
+cal obs time = 0.066091(cv) ms in loop 58
+
+cal obs time = 0.0789(cv) ms in loop 59
+
+cal obs time = 0.025257(cv) ms in loop 60
+
+cal obs time = 0.020432(cv) ms in loop 61
+
+cal obs time = 0.023957(cv) ms in loop 62
+
+cal obs time = 0.115431(cv) ms in loop 63
+
+cal obs time = 0.173888(cv) ms in loop 64
+
+cal obs time = 0.025567(cv) ms in loop 65
+
+cal obs time = 0.022755(cv) ms in loop 66
+
+cal obs time = 0.024385(cv) ms in loop 67
+
+cal obs time = 0.105292(cv) ms in loop 68
+
+cal obs time = 0.027262(cv) ms in loop 69
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.309988, rz=-0.767283, dyaw=-43.9844, err_dyaw_safe=0.184179, near safezone dist=2.2, newdir=-43.8002, ddir_between_now_and_chosen_dir=0
+after vx=0.309988, rz=-0.764458
+cal obs time = 0.098612(cv) ms in loop 70
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.306712, rz=-0.736677, dyaw=-42.2299, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.306712, rz=-0.737051
+cal obs time = 0.057747(cv) ms in loop 71
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.303168, rz=-0.705101, dyaw=-40.4198, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.303168, rz=-0.705458
+cal obs time = 0.296065(cv) ms in loop 72
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.29932, rz=-0.672689, dyaw=-38.5618, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.29932, rz=-0.67303
+cal obs time = 0.134162(cv) ms in loop 73
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.291666, rz=-0.613022, dyaw=-35.1414, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.291666, rz=-0.613333
+cal obs time = 0.066605(cv) ms in loop 74
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.284908, rz=-0.563932, dyaw=-32.3273, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.284908, rz=-0.564218
+cal obs time = 0.178762(cv) ms in loop 75
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.284908, rz=-0.563932, dyaw=-32.3273, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.284908, rz=-0.564218
+cal obs time = 0.060301(cv) ms in loop 76
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.28124, rz=-0.538528, dyaw=-30.8711, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.28124, rz=-0.538802
+cal obs time = 0.128467(cv) ms in loop 77
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.274317, rz=-0.492389, dyaw=-28.2261, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.274317, rz=-0.492639
+cal obs time = 0.170842(cv) ms in loop 78
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.266928, rz=-0.444243, dyaw=-25.4661, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.266928, rz=-0.444468
+cal obs time = 0.077964(cv) ms in loop 79
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.248051, rz=-0.324238, dyaw=-18.5869, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.248051, rz=-0.324402
+cal obs time = 0.053913(cv) ms in loop 80
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.248051, rz=-0.324238, dyaw=-18.5869, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.248051, rz=-0.324402
+cal obs time = 0.400197(cv) ms in loop 81
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.235925, rz=-0.250226, dyaw=-14.3442, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.235925, rz=-0.250353
+cal obs time = 0.090391(cv) ms in loop 82
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.228988, rz=-0.209867, dyaw=-12.0306, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.228988, rz=-0.209974
+cal obs time = 0.06311(cv) ms in loop 83
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.218802, rz=-0.152374, dyaw=-8.73482, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.218802, rz=-0.152451
+cal obs time = 0.140196(cv) ms in loop 84
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.213975, rz=-0.124876, dyaw=-7.15849, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.213975, rz=-0.124939
+cal obs time = 0.1288(cv) ms in loop 85
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.207032, rz=-0.0841673, dyaw=-4.82488, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.207032, rz=-0.08421
+cal obs time = 0.096906(cv) ms in loop 86
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.200316, rz=-0.0431767, dyaw=-2.4751, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.200316, rz=-0.0431986
+cal obs time = 0.299891(cv) ms in loop 87
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.193815, rz=-0.00172451, dyaw=-0.0988571, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.193815, rz=-0.00172538
+cal obs time = 0.117916(cv) ms in loop 88
+
+all 1 safezone
+zone[0]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 0 safezone
+modify:
+origin vx=0.181562, rz=0.0824577, dyaw=4.72687, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.181562, rz=0.0824995
+cal obs time = 0.251857(cv) ms in loop 89
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-11.7913, rp[0]=2.25, rp[1]=-67.9411, safedir:-66.8725, -12.8598
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.181562, rz=0.0824577, dyaw=4.72687, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.181562, rz=0.0824995
+cal obs time = 0.114995(cv) ms in loop 90
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-11.7913, rp[0]=2.25, rp[1]=-67.9411, safedir:-66.8725, -12.8598
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.177364, rz=0.113978, dyaw=6.53375, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.177364, rz=0.114035
+cal obs time = 0.123205(cv) ms in loop 91
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-9.78591, rp[0]=2.25, rp[1]=-65.9358, safedir:-64.8672, -10.8545
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.168103, rz=0.223642, dyaw=12.8202, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.168103, rz=0.223755
+cal obs time = 0.136035(cv) ms in loop 92
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-3.76985, rp[0]=2.25, rp[1]=-59.9197, safedir:-58.8511, -4.83844
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.168103, rz=0.223642, dyaw=12.8202, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.168103, rz=0.223755
+cal obs time = 0.147646(cv) ms in loop 93
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-3.76985, rp[0]=2.25, rp[1]=-59.9197, safedir:-58.8511, -4.83844
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.165023, rz=0.288469, dyaw=16.5365, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.165023, rz=0.288616
+cal obs time = 0.096974(cv) ms in loop 94
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-55.909, safedir:-54.8404, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.163452, rz=0.328038, dyaw=18.8047, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.163452, rz=0.328204
+cal obs time = 0.068326(cv) ms in loop 95
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-53.9037, safedir:-52.8351, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-34.6639, safedir:-33.7735, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.158703, rz=0.453886, dyaw=26.0189, err_dyaw_safe=0, near safezone dist=1.35, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.158703, rz=0.454116
+cal obs time = 0.248559(cv) ms in loop 96
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-47.8876, safedir:-46.819, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-24.6372, safedir:-23.7467, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.154029, rz=0.572452, dyaw=32.8157, err_dyaw_safe=0, near safezone dist=1.35, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.154029, rz=0.572742
+cal obs time = 0.085289(cv) ms in loop 97
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-39.8662, safedir:-38.7976, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-18.6211, safedir:-17.7306, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.149032, rz=0.685461, dyaw=39.294, err_dyaw_safe=0, near safezone dist=1.35, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.149032, rz=0.685809
+cal obs time = 0.14218(cv) ms in loop 98
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-33.8501, safedir:-32.7816, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-16.6158, safedir:-15.7253, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.149032, rz=0.685461, dyaw=39.294, err_dyaw_safe=0, near safezone dist=1.35, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.149032, rz=0.685809
+cal obs time = 0.279171(cv) ms in loop 99
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-33.8501, safedir:-32.7816, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-10.5997, safedir:-9.70923, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.147046, rz=0.739674, dyaw=42.4017, err_dyaw_safe=0, near safezone dist=1.35, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.147046, rz=0.740049
+cal obs time = 0.297511(cv) ms in loop 100
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-31.8448, safedir:-30.7762, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=0.7, rp[1]=-8.59437, safedir:-7.70388, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.14576, rz=0.772304, dyaw=44.2722, err_dyaw_safe=-1.61789, near safezone dist=2, newdir=42.6543, ddir_between_now_and_chosen_dir=0
+after vx=0.14576, rz=0.744458
+cal obs time = 0.067298(cv) ms in loop 101
+
+cal obs time = 0.016917(cv) ms in loop 102
+
+cal obs time = 0.020415(cv) ms in loop 103
+
+cal obs time = 0.02162(cv) ms in loop 104
+
+cal obs time = 0.028596(cv) ms in loop 105
+
+cal obs time = 0.02006(cv) ms in loop 106
+
+cal obs time = 0.031398(cv) ms in loop 107
+
+cal obs time = 0.106283(cv) ms in loop 108
+
+cal obs time = 0.024605(cv) ms in loop 109
+
+cal obs time = 0.043921(cv) ms in loop 110
+
+cal obs time = 0.048644(cv) ms in loop 111
+
+cal obs time = 0.13441(cv) ms in loop 112
+
+cal obs time = 0.130798(cv) ms in loop 113
+
+cal obs time = 0.06064(cv) ms in loop 114
+
+cal obs time = 0.091442(cv) ms in loop 115
+
+cal obs time = 0.324682(cv) ms in loop 116
+
+cal obs time = 0.022742(cv) ms in loop 117
+
+cal obs time = 0.690555(cv) ms in loop 118
+
+cal obs time = 0.47952(cv) ms in loop 119
+
+cal obs time = 0.08479(cv) ms in loop 120
+
+cal obs time = 0.312677(cv) ms in loop 121
+
+cal obs time = 0.113869(cv) ms in loop 122
+
+cal obs time = 0.05694(cv) ms in loop 123
+
+cal obs time = 0.07423(cv) ms in loop 124
+
+cal obs time = 0.041478(cv) ms in loop 125
+
+cal obs time = 0.021454(cv) ms in loop 126
+
+cal obs time = 0.022502(cv) ms in loop 127
+
+cal obs time = 0.052632(cv) ms in loop 128
+
+cal obs time = 0.090016(cv) ms in loop 129
+
+cal obs time = 0.039041(cv) ms in loop 130
+
+cal obs time = 0.026337(cv) ms in loop 131
+
+cal obs time = 0.032029(cv) ms in loop 132
+
+cal obs time = 0.023875(cv) ms in loop 133
+
+cal obs time = 0.064654(cv) ms in loop 134
+
+cal obs time = 0.025071(cv) ms in loop 135
+
+cal obs time = 0.453623(cv) ms in loop 136
+
+cal obs time = 0.125624(cv) ms in loop 137
+
+cal obs time = 0.082328(cv) ms in loop 138
+
+cal obs time = 0.055518(cv) ms in loop 139
+
+cal obs time = 0.246776(cv) ms in loop 140
+
+cal obs time = 0.101412(cv) ms in loop 141
+
+cal obs time = 0.070378(cv) ms in loop 142
+
+cal obs time = 0.15477(cv) ms in loop 143
+
+cal obs time = 0.021929(cv) ms in loop 144
+
+cal obs time = 0.164827(cv) ms in loop 145
+
+cal obs time = 0.351887(cv) ms in loop 146
+
+cal obs time = 0.078746(cv) ms in loop 147
+
+cal obs time = 0.040178(cv) ms in loop 148
+
+cal obs time = 0.066597(cv) ms in loop 149
+
+cal obs time = 0.118193(cv) ms in loop 150
+
+cal obs time = 0.346346(cv) ms in loop 151
+
+cal obs time = 0.075434(cv) ms in loop 152
+
+cal obs time = 0.059838(cv) ms in loop 153
+
+cal obs time = 0.324371(cv) ms in loop 154
+
+cal obs time = 0.029736(cv) ms in loop 155
+
+cal obs time = 0.073488(cv) ms in loop 156
+
+cal obs time = 0.06972(cv) ms in loop 157
+
+cal obs time = 0.124057(cv) ms in loop 158
+
+cal obs time = 0.075881(cv) ms in loop 159
+
+cal obs time = 0.190741(cv) ms in loop 160
+
+cal obs time = 0.061522(cv) ms in loop 161
+
+cal obs time = 0.068031(cv) ms in loop 162
+
+cal obs time = 0.257797(cv) ms in loop 163
+
+cal obs time = 0.088943(cv) ms in loop 164
+
+cal obs time = 0.066285(cv) ms in loop 165
+
+cal obs time = 0.068463(cv) ms in loop 166
+
+cal obs time = 0.224909(cv) ms in loop 167
+
+cal obs time = 0.050689(cv) ms in loop 168
+
+cal obs time = 0.095177(cv) ms in loop 169
+
+cal obs time = 0.218864(cv) ms in loop 170
+
+cal obs time = 0.06019(cv) ms in loop 171
+
+cal obs time = 0.460543(cv) ms in loop 172
+
+cal obs time = 0.115672(cv) ms in loop 173
+
+cal obs time = 0.051227(cv) ms in loop 174
+
+cal obs time = 0.08885(cv) ms in loop 175
+
+cal obs time = 0.082065(cv) ms in loop 176
+
+cal obs time = 0.022605(cv) ms in loop 177
+
+cal obs time = 0.117755(cv) ms in loop 178
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-29.8394, safedir:-28.7708, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.038665, rz=0.706587, dyaw=40.505, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.038665, rz=0.706945
+cal obs time = 0.260678(cv) ms in loop 179
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-33.8501, safedir:-32.7816, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.038665, rz=0.706587, dyaw=40.505, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.038665, rz=0.706945
+cal obs time = 0.118814(cv) ms in loop 180
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-33.8501, safedir:-32.7816, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.0334657, rz=0.603776, dyaw=34.6114, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.0334657, rz=0.604083
+cal obs time = 0.089852(cv) ms in loop 181
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-37.8608, safedir:-36.7923, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.0334657, rz=0.603776, dyaw=34.6114, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.0334657, rz=0.604083
+cal obs time = 0.397811(cv) ms in loop 182
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-37.8608, safedir:-36.7923, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.0299912, rz=0.513738, dyaw=29.4499, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.0299912, rz=0.513998
+cal obs time = 0.156443(cv) ms in loop 183
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-43.8769, safedir:-42.8083, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.0296581, rz=0.530043, dyaw=30.3847, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.0296581, rz=0.530312
+cal obs time = 0.068572(cv) ms in loop 184
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-43.8769, safedir:-42.8083, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.0275896, rz=0.476142, dyaw=27.2948, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.0275896, rz=0.476384
+cal obs time = 0.117876(cv) ms in loop 185
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-45.8823, safedir:-44.8137, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.0263661, rz=0.409372, dyaw=23.4672, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.0263661, rz=0.40958
+cal obs time = 0.152941(cv) ms in loop 186
+
+all 2 safezone
+zone[0]:lp[0]=2.25, lp[1]=-1.7645, rp[0]=2.25, rp[1]=-49.893, safedir:-48.8244, -2.83309
+zone[1]:lp[0]=2, lp[1]=43.5448, rp[0]=2.2, rp[1]=-44.6907, safedir:-43.8002, 42.6543
+choose 1 safezone
+modify:
+origin vx=0.0240434, rz=0.211794, dyaw=12.1411, err_dyaw_safe=0, near safezone dist=2.1, newdir=0, ddir_between_now_and_chosen_dir=0
+after vx=0.0240434, rz=0.211901
+cal obs time = 0.094994(cv) ms in loop 187
+
