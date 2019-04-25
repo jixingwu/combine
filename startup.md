@@ -19,7 +19,7 @@
 	roslaunch zed_nodelet_example zed_nodelet_laserscan.launch
     ```
 2. 对底盘的控制:
-	```bash
+    ```bash
 	roslaunch jiaolong_ros_wrapper start.launch
 	```
 3. [手柄](http://192.168.22.201/software/navigation/startup.html#id8)控制，用于对机器人的保护：
