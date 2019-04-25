@@ -14,6 +14,7 @@
 5. 深度相机TOF的驱动`launch`文件：[dmcam_ros/launch](https://github.com/smarttofsdk/SDK/tree/master/ros/src/dmcam_ros/launch)
 
 ### 运行启动
+下面介绍启动示例节点的步骤：
 #### 1. 使用[zed_camera](http://192.168.22.201/software/sensors/ai_robot_sensors/startup.html#zed-camera)或[Cartograpther](http://192.168.22.201/software/localization/cartographer/startup.html#id3)启动场景中的定位：
 ```bash
 roslaunch zed_nodelet_example zed_nodelet_laserscan.launch
@@ -22,6 +23,7 @@ roslaunch zed_nodelet_example zed_nodelet_laserscan.launch
 ```bash
 roslaunch jiaolong_ros_wrapper start.launch
 ```
+其他节点将通过发布`/RosAria/cmd_vel`话题对底盘控制
 #### 3. 启动[手柄](http://192.168.22.201/software/navigation/startup.html#id8)控制，用于对机器人的保护：
 ```bash
 roslaunch ai_robot_navigation justmove.launch
@@ -30,22 +32,30 @@ roslaunch ai_robot_navigation justmove.launch
 ```bash
 roslaunch respeaker_ros respeaker.launch
 ```
+- `/sound_direction` → [`geometry_msgs::PoseStamped`](http://docs.ros.org/api/geometry_msgs/html/msg/PoseStamped.html)→ 声音方向的四元数
+- `/sound_localization`→ [`std_msgs::Int32`](http://docs.ros.org/hydro/api/std_msgs/html/msg/Int32.html)→声音方向的角度
 #### 5. 目标识别模块:
-  i. 修改darknet_ros/config/ros.yaml中camera_reading收听的topic为:
+i. 修改darknet_ros/config/ros.yaml中camera_reading收听的topic为:
 ```bash
 /zed/left/image_raw_color
 ```
-  ii. 启动zed_camera和yolo：
+ii. 启动zed_camera，为目标识别提供RGB图像：
 ```bash
 roslaunch zed_cpu_ros zed_cpu_ros.launch
 ```
-  iii. 启动基于darknet框架的yolo算法：
-  ```bash
-  roslaunch darknet_ros yolo_v3.launch
-  ```
-#### 6. 驱动深度相机TOF：
+iii. 启动基于darknet框架的yolo算法：
+```bash
+roslaunch darknet_ros yolo_v3.launch
+```
+当开启成功后，会返回所识别到目标的**bouding_box**以及**类别概率**
+#### 6. 导航模块：
+i.驱动深度相机TOF：
 ```bash
 roslaunch dmcam_ros start.launch
+```
+ii. 启动obsavoid避障节点：
+```bash
+roslaunch obsavoid obsavoid-depth.launch
 ```
 #### 7. 运行连接所有模块程序[combine_ros](https://github.com/jixingwu/combine/tree/master/combine_ros)：
 ```bash
