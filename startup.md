@@ -14,33 +14,33 @@
 5. 深度相机TOF的驱动`launch`文件：[dmcam_ros/launch](https://github.com/smarttofsdk/SDK/tree/master/ros/src/dmcam_ros/launch)
 
 ### 运行启动
-#### 1. 使用[zed_camera](http://192.168.22.201/software/sensors/ai_robot_sensors/startup.html#zed-camera)或[Cartograpther](http://192.168.22.201/software/localization/cartographer/startup.html#id3)启动场景中的定位：
+####1. 使用[zed_camera](http://192.168.22.201/software/sensors/ai_robot_sensors/startup.html#zed-camera)或[Cartograpther](http://192.168.22.201/software/localization/cartographer/startup.html#id3)启动场景中的定位：
 	```bash
 	roslaunch zed_nodelet_example zed_nodelet_laserscan.launch
 	```
-#### 2. 启动对底盘的控制:
+####2. 启动对底盘的控制:
 	```bash
 	roslaunch jiaolong_ros_wrapper start.launch
 	```
-##### 3. 启动[手柄](http://192.168.22.201/software/navigation/startup.html#id8)控制，用于对机器人的保护：
+#####3. 启动[手柄](http://192.168.22.201/software/navigation/startup.html#id8)控制，用于对机器人的保护：
 	```bash
 	roslaunch ai_robot_navigation justmove.launch
 	```
-#### 4. 声源定位模块：
+####4. 声源定位模块：
 	```bash
 	roslaunch respeaker_ros respeaker.launch
 	```
-#### 5. 目标识别模块:
+####5. 目标识别模块:
 修改darknet_ros/config/ros.yaml中camera_reading收听的topic为`/zed/left/image_raw_color`后，启动zed_camera和yolo：
 	```bash
 	roslaunch zed_cpu_ros zed_cpu_ros.launch
 	roslaunch darknet_ros yolo_v3.launch
 	```
-#### 6. 驱动深度相机TOF：
+####6. 驱动深度相机TOF：
 	```bash
 	roslaunch dmcam_ros start.launch
 	```
-#### 7. 运行连接所有模块程序[combine_ros](https://github.com/jixingwu/combine/tree/master/combine_ros)：
+####7. 运行连接所有模块程序[combine_ros](https://github.com/jixingwu/combine/tree/master/combine_ros)：
 	```bash
 	roslaunch combine_ros start.launch
 	```
