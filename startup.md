@@ -12,6 +12,11 @@
 
 ### 运行启动
 1. 使用[zed_camera](http://192.168.22.201/software/sensors/ai_robot_sensors/startup.html#zed-camera)或[Cartograpther](http://192.168.22.201/software/localization/cartographer/startup.html#id3)启动场景中的定位：
+    ``` bash
+    sphinx-build -b latex <source-dir> <latex-build-dir>
+    cd <latex-build-dir>
+    make
+    ```
 	'''bash
 	roslaunch zed_nodelet_example zed_nodelet_laserscan.launch
 	'''
