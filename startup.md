@@ -44,7 +44,7 @@
 	```bash
 	roslaunch dmcam_ros start.launch
 	```
-7. 运行连接所有模块程序[combine_ros]()：
+7. 运行连接所有模块程序[combine_ros](https://github.com/jixingwu/combine/tree/master/combine_ros)：
 	```bash
 	roslaunch combine_ros start.launch
 	```
