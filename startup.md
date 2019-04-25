@@ -6,8 +6,8 @@
 机器人的初始状态是朝向任意方向并处于静止。首先调用**声源定位模块**，当人物发出一个在可识别范围内的声音后，机器人发生旋转并朝向声源方向。然后调用**目标识别模块**，根据是否存在人物执行不同的动作。如果能够识别到人物，调用**导航模块**，机器人移动前进并避开与人物之间的障碍物,到达目标身边。如果并未识别到人物，则机器人回转到初始状态。
 
 ### 环境配置
-1. 声源定位模块'launch'文件：[respeaker_ros/launch](https://github.com/furushchev/respeaker_ros/tree/master/launch)
-2. 目标识别模块'launch'文件：[darknet_ros/launch](https://github.com/leggedrobotics/darknet_ros/tree/master/darknet_ros/launch)
+1. 声源定位模块 'launch' 文件：[respeaker_ros/launch](https://github.com/furushchev/respeaker_ros/tree/master/launch)
+2. 目标识别模块 'launch' 文件：[darknet_ros/launch](https://github.com/leggedrobotics/darknet_ros/tree/master/darknet_ros/launch)
 3. 导航模块'launch'文件：[obsavoid/launch](https://github.com/jixingwu/obsavoid/tree/master/obsavoid/launch)
 
 ### 运行启动
