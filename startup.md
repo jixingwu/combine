@@ -32,8 +32,8 @@ roslaunch ai_robot_navigation justmove.launch
 ```bash
 roslaunch respeaker_ros respeaker.launch
 ```
-- `/sound_direction` → [`geometry_msgs::PoseStamped`](http://docs.ros.org/api/geometry_msgs/html/msg/PoseStamped.html) → 声音方向的四元数
-- `/sound_localization` → [`std_msgs::Int32`](http://docs.ros.org/hydro/api/std_msgs/html/msg/Int32.html) → 声音方向的角度
+- `/sound_direction` → [`geometry_msgs::PoseStamped`](http://docs.ros.org/api/geometry_msgs/html/msg/PoseStamped.html) → 声源方向四元数
+- `/sound_localization` → [`std_msgs::Int32`](http://docs.ros.org/hydro/api/std_msgs/html/msg/Int32.html) → 声源方向角度
 #### 5. 目标识别模块:
 i. 修改darknet_ros/config/ros.yaml中camera_reading收听的topic为:
 ```bash
@@ -58,7 +58,7 @@ ii. 启动obsavoid避障节点：
 roslaunch obsavoid obsavoid-depth.launch
 ```
 话题`/ai_robot/findpath/targetP`传递目标位置信息。
-#### 7. 运行连接所有模块程序[combine_ros](https://github.com/jixingwu/combine/tree/master/combine_ros)：
+#### 7. 启动连接所有模块程序[combine_ros](https://github.com/jixingwu/combine/tree/master/combine_ros)：
 ```bash
 roslaunch combine_ros start.launch
 ```
