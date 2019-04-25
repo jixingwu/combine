@@ -38,8 +38,11 @@ roslaunch respeaker_ros respeaker.launch
   ii. 启动zed_camera和yolo：
 ```bash
 roslaunch zed_cpu_ros zed_cpu_ros.launch
-roslaunch darknet_ros yolo_v3.launch
 ```
+  iii. 启动基于darknet框架的yolo算法：
+  ```bash
+  roslaunch darknet_ros yolo_v3.launch
+  ```
 #### 6. 驱动深度相机TOF：
 ```bash
 roslaunch dmcam_ros start.launch
