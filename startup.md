@@ -15,11 +15,11 @@
 
 ### 运行启动
 1. 使用[zed_camera](http://192.168.22.201/software/sensors/ai_robot_sensors/startup.html#zed-camera)或[Cartograpther](http://192.168.22.201/software/localization/cartographer/startup.html#id3)启动场景中的定位：
-    ```bash
+	```bash
 	roslaunch zed_nodelet_example zed_nodelet_laserscan.launch
-    ```
+	```
 2. 对底盘的控制:
-    ```bash
+	```bash
 	roslaunch jiaolong_ros_wrapper start.launch
 	```
 3. [手柄](http://192.168.22.201/software/navigation/startup.html#id8)控制，用于对机器人的保护：
@@ -43,4 +43,8 @@
 6. 驱动深度相机TOF：
 	```bash
 	roslaunch dmcam_ros start.launch
+	```
+7. 运行连接所有模块程序[combine_ros]()：
+	```bash
+	roslaunch combine_ros start.launch
 	```
