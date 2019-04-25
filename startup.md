@@ -20,7 +20,7 @@
 	```bash
 	roslaunch jiaolong_ros_wrapper start.launch
 	```
-3. 启动[手柄](http://192.168.22.201/software/navigation/startup.html#id8)控制：
+3. 启动[手柄](http://192.168.22.201/software/navigation/startup.html#id8)控制，用于对机器人的保护：
 	```bash
 	roslaunch ai_robot_navigation justmove.launch
 	```
