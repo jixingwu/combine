@@ -38,6 +38,8 @@
     * 启动zed_camera和yolo：
 	```bash
 	roslaunch zed_cpu_ros zed_cpu_ros.launch
+	```
+	```bash
 	roslaunch darknet_ros yolo_v3.launch
 	```
 6. 驱动深度相机TOF：
