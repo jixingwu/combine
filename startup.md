@@ -23,7 +23,7 @@ roslaunch zed_nodelet_example zed_nodelet_laserscan.launch
 ```bash
 roslaunch jiaolong_ros_wrapper start.launch
 ```
-其他节点将通过发布`/RosAria/cmd_vel`话题对底盘控制
+话题`/RosAria/cmd_vel`传递底盘速度信息。
 #### 3. 启动[手柄](http://192.168.22.201/software/navigation/startup.html#id8)控制，用于对机器人的保护：
 ```bash
 roslaunch ai_robot_navigation justmove.launch
@@ -57,6 +57,7 @@ ii. 启动obsavoid避障节点：
 ```bash
 roslaunch obsavoid obsavoid-depth.launch
 ```
+话题`/ai_robot/findpath/targetP`传递目标位置信息。
 #### 7. 运行连接所有模块程序[combine_ros](https://github.com/jixingwu/combine/tree/master/combine_ros)：
 ```bash
 roslaunch combine_ros start.launch
