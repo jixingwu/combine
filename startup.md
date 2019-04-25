@@ -31,7 +31,11 @@ roslaunch ai_robot_navigation justmove.launch
 roslaunch respeaker_ros respeaker.launch
 ```
 #### 5. 目标识别模块:
-修改darknet_ros/config/ros.yaml中camera_reading收听的topic为`/zed/left/image_raw_color`后，启动zed_camera和yolo：
+i. 修改darknet_ros/config/ros.yaml中camera_reading收听的topic为:
+```bash
+/zed/left/image_raw_color
+```
+ii. 启动zed_camera和yolo：
 ```bash
 roslaunch zed_cpu_ros zed_cpu_ros.launch
 roslaunch darknet_ros yolo_v3.launch
