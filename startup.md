@@ -32,8 +32,8 @@ roslaunch ai_robot_navigation justmove.launch
 ```bash
 roslaunch respeaker_ros respeaker.launch
 ```
-- `/sound_direction` → [`geometry_msgs::PoseStamped`](http://docs.ros.org/api/geometry_msgs/html/msg/PoseStamped.html) → 声源方向四元数
-- `/sound_localization` → [`std_msgs::Int32`](http://docs.ros.org/hydro/api/std_msgs/html/msg/Int32.html) → 声源方向角度
+- 声源方向四元数:`/sound_direction`([`geometry_msgs::PoseStamped`](http://docs.ros.org/api/geometry_msgs/html/msg/PoseStamped.html))
+- 声源方向角度:`/sound_localization`([`std_msgs::Int32`](http://docs.ros.org/hydro/api/std_msgs/html/msg/Int32.html)) 
 #### 5. 目标识别模块:
 i. 修改darknet_ros/config/ros.yaml中camera_reading收听的topic为:
 ```bash
