@@ -10,7 +10,7 @@
 1. 声源定位模块`launch`文件：[respeaker_ros/launch](https://github.com/furushchev/respeaker_ros/tree/master/launch)
 2. 目标识别模块`launch`文件：[darknet_ros/launch](https://github.com/leggedrobotics/darknet_ros/tree/master/darknet_ros/launch)
 3. 导航模块`launch`文件：[obsavoid/launch](https://github.com/jixingwu/obsavoid/tree/master/obsavoid/launch)
-4. 机器人底盘`launch`文件：[jiaolong_ros_wrapper/launch](https://github.com/NLS-SJTU/jiaolong_ros_wrapper/tree/master/launch)
+4. 机器人底盘驱动`launch`文件：[jiaolong_ros_wrapper/launch](https://github.com/NLS-SJTU/jiaolong_ros_wrapper/tree/master/launch)
 5. 深度相机TOF的驱动`launch`文件：[dmcam_ros/launch](https://github.com/smarttofsdk/SDK/tree/master/ros/src/dmcam_ros/launch)
 
 ### 运行启动
