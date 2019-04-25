@@ -29,16 +29,14 @@
 	roslaunch respeaker_ros respeaker.launch
 	```
 5. 启动目标识别模块:
-    - 修改darknet_ros/config/ros.yaml中camera_reading收听的topic:
+    * 修改darknet_ros/config/ros.yaml中camera_reading收听的topic:
 	```bash
 	/zed/left/image_raw_color
 	```
-    - 启动zed_camera和yolo：
+    * 启动zed_camera和yolo：
 	```bash
 	roslaunch zed_cpu_ros zed_cpu_ros.launch
 	roslaunch darknet_ros yolo_v3.launch
 	```
 6. 启动
--
-*
-+
+
